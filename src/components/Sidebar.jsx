@@ -15,6 +15,9 @@ const Sidebar = () => {
             <hr/>
             <SidebarOptions title='Your Library' Icon={QueueMusicRoundedIcon}/>
             <Playlists>Playlists</Playlists>
+            <SidebarOptions title='Miami'/>
+            <SidebarOptions title='Vegas'/>
+            <SidebarOptions title='York'/>
         </SidebarContainer>
     )
 }
