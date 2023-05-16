@@ -2,9 +2,10 @@ import styled from 'styled-components'
 
 const SidebarContainer = styled.div`
     flex: 0.2;
-    height: 100vh;
+    height: 85vh;
     background-color: #212121;
-    border: 6px solid #121212;
+    margin: 8px;
+    border-radius: 10px;
     min-width: 240px;
     color: #b3b3b3;
     & img {
@@ -12,9 +13,6 @@ const SidebarContainer = styled.div`
         padding: 10px;
         margin-left: 10px;
         margin-right: auto;
-    }
-    & hr {
-        border: 6px solid #121212;
     }
 `
 
