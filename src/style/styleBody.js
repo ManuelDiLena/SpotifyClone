@@ -25,6 +25,8 @@ const HeaderLeft = styled.div`
         width: 100%;
         font-size: 18px;
         background-color: transparent;
+        color: #ffffff;
+        outline: none;
     }
 `
 
