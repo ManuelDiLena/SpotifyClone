@@ -9,6 +9,7 @@ import { selectToken } from './features/TokenSlice';
 import { selectUser } from './features/UserSlice';
 import SpotifyWebApi from'spotify-web-api-js';
 import { setToken } from './features/TokenSlice';
+import { setPlaylist } from './features/PlaylistSlice';
 
 const spotify = new SpotifyWebApi()
 
@@ -28,6 +29,7 @@ function App() {
             spotify.setAccessToken(_token);
             spotify.getMe().then(user => dispatch(setUser(user)))
             console.log('token: ' + token);
+            spotify.getPlaylist('3tyhpJx378PMOmz8xL3NXR').then(playlist => dispatch(setPlaylist(playlist)))
         }
 
     }, [dispatch])
