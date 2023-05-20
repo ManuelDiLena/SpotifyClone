@@ -16,16 +16,16 @@ const Footer = () => {
             <FooterLeft>
                 <img src={album} alt='cover'/>
                 <div>
-                    <h4>The Scientist</h4>
+                    <h4 className='name-song'>The Scientist</h4>
                     <p>Coldplay</p>
                 </div>
             </FooterLeft>
             <FooterCenter>
-                <ShuffleRoundedIcon style={{ fontSize: 25 }} />
-                <SkipPreviousRoundedIcon style={{ fontSize: 50 }} />
-                <PlayCircleFilledRoundedIcon style={{ fontSize: 60 }} />
-                <SkipNextRoundedIcon style={{ fontSize: 50 }} />
-                <RepeatRoundedIcon style={{ fontSize: 25 }} />
+                <ShuffleRoundedIcon style={{ fontSize: 25 }} className='shuffle' />
+                <SkipPreviousRoundedIcon style={{ fontSize: 50 }} className='icon' />
+                <PlayCircleFilledRoundedIcon style={{ fontSize: 60 }} className='icon-play white' />
+                <SkipNextRoundedIcon style={{ fontSize: 50 }} className='icon' />
+                <RepeatRoundedIcon style={{ fontSize: 25 }} className='repeat' />
             </FooterCenter>
             <FooterRight>
                 <Grid container spacing={2}>

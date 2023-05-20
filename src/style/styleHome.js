@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const SpotifyBody = styled.div`
     display: flex;
-    background-color: #121212;
+    background: linear-gradient(#340034, #121212);
 `
 
 export { SpotifyBody }

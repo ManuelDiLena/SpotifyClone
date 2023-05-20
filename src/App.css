@@ -1,0 +1,26 @@
+.shuffle, .repeat, .green {
+    color: #1db954;
+    cursor: pointer;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.icon-play:hover {
+    transition: transform 300ms ease-in-out;
+    transform: scale(1.1) !important;
+}
+
+.icon {
+    color: #b3b3b3;
+}
+
+.icon:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.name-song {
+    color: #ffffff;
+}
